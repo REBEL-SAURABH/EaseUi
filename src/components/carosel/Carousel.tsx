@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import type { CarouselProps } from "./CarouselType";
 
-type Props = {}
+
 
 const Carousel : React.FC<CarouselProps> = ({
   children,
   autoPlay = false,
   interval = 3000,
-  showArrows = true,
-  showDots = true,
+  // showArrows = true,
+  // showDots = true,
   loop = true,
 }) => {
   
@@ -28,15 +28,16 @@ const Carousel : React.FC<CarouselProps> = ({
     });
   };
 
-  const prevSlide = () => {
-    setCurrent((prev) => {
-      if (prev === 0) {
-        return loop ? slides.length - 1 : prev;
-      }
+  // const prevSlide = () => {
 
-      return prev - 1;
-    });
-  };
+  //   setCurrent((prev) => {
+  //     if (prev === 0) {
+  //       return loop ? slides.length - 1 : prev;
+  //     }
+
+  //     return prev - 1;
+  //   });
+  // };
 
   useEffect(() => {
     if (!autoPlay) return;

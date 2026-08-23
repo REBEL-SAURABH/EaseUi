@@ -43,11 +43,11 @@ const Tooltips :  React.FC <TooltipProps> = ({
     primary: "bg-indigo-600 text-white",
   };
 
-  const arrowVariant = {
-    dark: "border-t-gray-900",
-    light: "border-t-white",
-    primary: "border-t-indigo-600",
-  };
+  // const arrowVariant = {
+  //   dark: "border-t-gray-900",
+  //   light: "border-t-white",
+  //   primary: "border-t-indigo-600",
+  // };
 
   if (disabled) {
     return <>{children}</>;

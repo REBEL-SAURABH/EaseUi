@@ -1,5 +1,5 @@
 import Tooltips from "@/components/Tooltip/Tooltips";
-import React, { useState } from "react";
+import  { useState } from "react";
 
 
 const TooltipPage = () => {

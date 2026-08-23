@@ -1,4 +1,4 @@
-import React from "react";
+
 import {
   ArrowRight,
   Check,
@@ -7,8 +7,7 @@ import {
   Layers3,
   Sparkles,
   Zap,
-  MessageCircleQuestion,
-   PanelsTopLeft,
+
 } from "lucide-react";
 import { useNavigate } from "react-router";
 

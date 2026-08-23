@@ -1,9 +1,9 @@
 import Carousel from '@/components/carosel/Carousel';
-import React, { useState } from 'react'
+import  { useState } from 'react'
 
-type Props = {}
 
-const CarouselPages = (props: Props) => {
+
+const CarouselPages = () => {
 
   const [showCode, setShowCode] = useState(false);
 
